@@ -36,7 +36,7 @@ def display_skills():
         # Cloud Platforms
         st.subheader("☁️ Cloud Platforms")
         st.write("""
-        - Completed **Google Cloud Facilitator Program** in 2022.
+        - Completed **Google Cloud Ready Facilitator Program** in 2022.
         """)
 
     # Add a separator
