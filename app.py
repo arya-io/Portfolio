@@ -95,7 +95,7 @@ st.sidebar.markdown("""
 """)
 
 # Profile Section
-st.sidebar.image("Arya.jpg", caption="", use_column_width=True, width=100)  # Update the path to your profile photo
+st.sidebar.image("Arya1.jpg", caption="", use_column_width=True, width=100)  # Update the path to your profile photo
 st.sidebar.markdown("<h2 style='text-align: center; color: #1ed760;'>Arya</h2>", unsafe_allow_html=True)
 
 # Additional Details
