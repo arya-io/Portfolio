@@ -2,10 +2,12 @@ import streamlit as st
 from PIL import Image
 
 def display_projects():
+    # Header for the projects section with an icon
     st.header("🚀 My Projects")
+    # Introduction text for the projects section
     st.write("Here are some of my recent projects, categorized by domain. You can filter the projects by category or expand them for more details:")
 
-    # Project icons
+    # Dictionary of project categories and corresponding icons
     icons = {
         "AI": "🧠",
         "Computer Vision": "👁️",
@@ -16,9 +18,10 @@ def display_projects():
         "Exploratory Data Analysis": "🔍",
     }
 
-    st.markdown("---")  # Horizontal line for separation
+    # Horizontal divider line
+    st.markdown("---")
 
-    # Define detailed project information
+    # List of projects, each project is a dictionary with details such as name, category, description, tools used, and GitHub link
     projects = [
         {
             "name": "Hand Gesture Volume Control System",
@@ -78,15 +81,15 @@ def display_projects():
         },
     ]
 
-    # Dropdown to select project category
+    # Dropdown for filtering projects by category
     category = st.selectbox("Filter by category:", ["All"] + sorted(set([cat for project in projects for cat in project['category']])))
 
-    # Display projects based on selected category
+    # Loop through the list of projects and display those that match the selected category or show all if "All" is selected
     for project in projects:
-        # Check if the project should be displayed (matches the selected category or "All")
         if category == "All" or category in project['category']:
+            # Use an expander to display project details that the user can click to expand
             with st.expander(f"{icons.get(project['category'][0], '🚀')} **{project['name']}** ({', '.join(project['category'])})", expanded=False):
-                # Project description in a card-style format
+                # Display the project details in a card-like structure with markdown for better formatting
                 st.markdown(f"""
                 <div style='border: 1px solid #ddd; padding: 10px; border-radius: 5px;'>
                     <h4 style='color: #2d7d9a;'>{project['name']}</h4>
@@ -98,4 +101,5 @@ def display_projects():
                 </div>
                 """, unsafe_allow_html=True)
 
-    st.markdown("---")  # Horizontal line for separation
+    # Horizontal divider line after the project list
+    st.markdown("---")
