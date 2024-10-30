@@ -12,7 +12,7 @@ def display_about():
 
     with col1:
         # Placeholder image (replace with a personal photo if available)
-        image = Image.open("Arya.jpg")  # Load an image for a more personal touch
+        image = Image.open("Arya1.jpg")  # Load an image for a more personal touch
         st.image(image, caption="Arya", use_column_width=True)
 
     with col2:
