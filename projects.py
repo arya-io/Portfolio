@@ -15,7 +15,7 @@ def display_projects():
         "Machine Learning": "🤖",
         "Web Scraping": "🌐",
         "Automation": "🤖",
-        "Exploratory Data Analysis": "🔍"
+        "Exploratory Data Analysis": "🔍",
         "Natural Language Processing": "🗣",
     }
 
