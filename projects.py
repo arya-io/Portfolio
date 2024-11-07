@@ -47,7 +47,7 @@ def display_projects():
             "category": ["AI", "Automation", "Web Scraping"],
             "description": """This project automates the generation of personalized cold emails for job opportunities. 
             It extracts job data from job listing URLs and uses AI to craft tailored emails, integrating company portfolio links based on job skills.""",
-            "tools": ["Python", "Streamlit", "Groq Cloud", "ChromaDB", "Langchain", "Llama 3.1"]
+            "tools": ["Python", "Streamlit", "Groq Cloud", "ChromaDB", "Langchain", "Llama 3.1"],
             "link": "https://github.com/arya-io/email-generator.git",
         },
         {
