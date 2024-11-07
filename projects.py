@@ -15,7 +15,8 @@ def display_projects():
         "Machine Learning": "🤖",
         "Web Scraping": "🌐",
         "Automation": "🤖",
-        "Exploratory Data Analysis": "🔍",
+        "Exploratory Data Analysis": "🔍"
+        "Natural Language Processing": "🗣",
     }
 
     # Horizontal divider line
@@ -30,6 +31,24 @@ def display_projects():
             The system uses OpenCV to capture hand gestures, MediaPipe for hand-tracking, and Python to map gestures to volume control actions.""",
             "tools": ["Python", "OpenCV", "MediaPipe"],
             "link": "https://github.com/arya-io/AI-Volume-Controller.git",
+        },
+        {
+            "name": "NLP Explorer App",
+            "category": ["AI", "Natural Language Processing", "Web Application"],
+            "description": """In this project, I built a web application that allows users to explore and apply various 
+            Natural Language Processing techniques. The app includes features like Tokenization, Part-of-Speech (POS) 
+            Tagging, Stemming, Lemmatization, and Named Entity Recognition (NER). Built with Streamlit, users can input text, 
+            select the NLP tasks they want to perform, and get detailed analysis results directly in their browser.""",
+            "tools": ["Python", "Streamlit", "NLTK"],
+            "link": "https://github.com/arya-io/NLP-Explorer.git",
+        },
+        {
+            "name": "Cold Email Generator",
+            "category": ["AI", "Automation", "Web Scraping"],
+            "description": """This project automates the generation of personalized cold emails for job opportunities. 
+            It extracts job data from job listing URLs and uses AI to craft tailored emails, integrating company portfolio links based on job skills.""",
+            "tools": ["Python", "Streamlit", "Groq Cloud", "ChromaDB", "Langchain", "Llama 3.1"]
+            "link": "https://github.com/arya-io/email-generator.git",
         },
         {
             "name": "Run Chase Prediction in IPL",
