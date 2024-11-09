@@ -27,43 +27,46 @@ def display_home():
             margin-bottom: 50px;  /* Increased space below the subtitle */
             text-transform: uppercase;
         }
+        /* Updated Introduction section */
         .introduction {
             text-align: center;
             font-size: 1.3em;
             line-height: 1.8;  /* Increased line spacing for readability */
             color: #555555;
-            padding: 40px 60px;  /* Added more padding inside the introduction box */
+            padding: 30px;  /* Reduced padding for better centering */
             background-color: #ffffff;
             border-radius: 15px;
             box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
-            margin: 40px auto;  /* Increased top margin for better separation between sections */
-            max-width: 800px;
+            margin: 20px auto;  /* Reduced margin to align better */
+            max-width: 700px;  /* Reduced max-width for better centering */
             border: 1px solid #2980b9; /* Border for emphasis */
         }
+        /* Updated Quote section */
         .quote {
             font-size: 1.8em;
             font-style: italic;
             text-align: center;
-            margin: 60px auto;  /* Increased vertical margin for more space above and below the quote */
+            margin: 40px auto;  /* Reduced margin for better spacing */
             color: #2c3e50;
             background-color: #ecf0f1;
-            padding: 30px;  /* Added more padding for better spacing inside the quote box */
+            padding: 20px;  /* Adjusted padding for better centering */
             border-radius: 10px;
             box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
-            max-width: 700px;
+            max-width: 600px;  /* Reduced max-width for better centering */
             border: 2px solid #2980b9; /* Border for emphasis */
         }
+        /* Updated Footer section */
         .footer {
             text-align: center;
-            padding: 20px 0;  /* Added padding for better spacing */
+            padding: 10px 0;  /* Added padding to better separate footer content */
             font-size: 1em;
             color: #888;
             width: 100%;
-            margin-top: 80px;  /* Increased space between footer and content above */
+            margin-top: 50px;  /* Reduced margin to bring footer closer to content */
         }
         .footer img {
-            width: 40px; /* Increased icon size */
-            margin: 0 20px; /* Increased space between icons */
+            width: 35px; /* Consistent icon size */
+            margin: 0 10px; /* Reduced space between icons */
             transition: opacity 0.3s;
             padding: 5px;
         }
