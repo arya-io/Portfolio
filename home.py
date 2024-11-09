@@ -17,6 +17,7 @@ def display_home():
         .header h1 {
             font-size: 4.2em;
             font-weight: bold;
+            color: white
             margin-bottom: 10px;
             text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
         }
