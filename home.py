@@ -11,62 +11,59 @@ def display_home():
         }
         .header {
             text-align: center;
-            padding: 0px 0 40px 0;  /* Increased bottom padding for more space below the header */
+            padding: 0px 0 40px 0;
             color: #2c3e50;
         }
         .header h1 {
             font-size: 4.2em;
             font-weight: bold;
-            margin-bottom: 10px;  /* Increased space below the title */
+            margin-bottom: 10px;
             text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
         }
         .header h2 {
             font-size: 2.2em;
             font-weight: 300;
             color: #2980b9;
-            margin-bottom: 20px;  /* Increased space below the subtitle */
+            margin-bottom: 10px;
             text-transform: uppercase;
         }
-        /* Updated Introduction section */
         .introduction {
             text-align: center;
             font-size: 1.3em;
-            line-height: 1.8;  /* Increased line spacing for readability */
+            line-height: 1.8;
             color: #555555;
-            padding: 30px;  /* Reduced padding for better centering */
+            padding: 30px;
             background-color: #ffffff;
             border-radius: 15px;
             box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
-            margin: 20px auto;  /* Reduced margin to align better */
-            max-width: 700px;  /* Reduced max-width for better centering */
-            border: 1px solid #2980b9; /* Border for emphasis */
+            margin: 20px auto;
+            max-width: 700px;
+            border: 1px solid #2980b9;
         }
-        /* Updated Quote section */
         .quote {
             font-size: 1.8em;
             font-style: italic;
             text-align: center;
-            margin: 40px auto;  /* Reduced margin for better spacing */
+            margin: 40px auto;
             color: #2c3e50;
             background-color: #ecf0f1;
-            padding: 20px;  /* Adjusted padding for better centering */
+            padding: 20px;
             border-radius: 10px;
             box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
-            max-width: 600px;  /* Reduced max-width for better centering */
-            border: 2px solid #2980b9; /* Border for emphasis */
+            max-width: 600px;
+            border: 2px solid #2980b9;
         }
-        /* Updated Footer section */
         .footer {
             text-align: center;
-            padding: 0px 0;  /* Added padding to better separate footer content */
+            padding: 0px 0;
             font-size: 1em;
             color: #888;
             width: 100%;
-            margin-top: 50px;  /* Reduced margin to bring footer closer to content */
+            margin-top: 50px;
         }
         .footer img {
-            width: 35px; /* Consistent icon size */
-            margin: 0 10px; /* Reduced space between icons */
+            width: 35px;
+            margin: 0 10px;
             transition: opacity 0.3s;
             padding: 5px;
         }
