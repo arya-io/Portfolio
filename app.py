@@ -46,8 +46,7 @@ st.markdown("""
 
 # Greeting based on time of day
 import datetime
-current_hour = datetime.datetime.now().hour  # Get the current hour
-st.write(current_hour)
+current_hour = datetime.datetime.now().hour + 6 # Get the current hour
 if current_hour < 12:
     greeting = "🌞 Good Morning!"
 elif 12 <= current_hour < 18:
@@ -59,7 +58,7 @@ st.sidebar.markdown(f"<div class='greeting'>{greeting}</div>", unsafe_allow_html
 
 st.sidebar.markdown("""---""")
 
-st.sidebar.image("Arya1.jpg", caption="", use_column_width=True, width=100)  # Displays profile image in sidebar
+# st.sidebar.image("Arya1.jpg", caption="", use_column_width=True, width=100)  # Displays profile image in sidebar
 st.sidebar.markdown("<h2 style='text-align: center; color: #1ed760;'>Arya</h2>", unsafe_allow_html=True)  # Name below the image
 
 st.sidebar.markdown("""
