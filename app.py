@@ -36,12 +36,18 @@ st.markdown("""
             text-align: center;  /* Centered details */
             margin-top: 5px;
         }
+        .greeting {
+            font-size: 1.1rem;
+            color: #1ed760;
+            text-align: center;  /* Centered greeting */
+        }
     </style>
 """, unsafe_allow_html=True)
 
 # Greeting based on time of day
 import datetime
 current_hour = datetime.datetime.now().hour  # Get the current hour
+st.write(current_hour)
 if current_hour < 12:
     greeting = "🌞 Good Morning!"
 elif 12 <= current_hour < 18:
@@ -51,15 +57,23 @@ else:
 
 st.sidebar.markdown(f"<div class='greeting'>{greeting}</div>", unsafe_allow_html=True)  # Display greeting in sidebar
 
+st.sidebar.markdown("""---""")
+
 st.sidebar.image("Arya1.jpg", caption="", use_column_width=True, width=100)  # Displays profile image in sidebar
 st.sidebar.markdown("<h2 style='text-align: center; color: #1ed760;'>Arya</h2>", unsafe_allow_html=True)  # Name below the image
 
 st.sidebar.markdown("""
     <div class='details'>
     AI Enthusiast
+    </div>
+""", unsafe_allow_html=True)
+st.sidebar.markdown("""
+    <div class='details'>
     Nagpur, India
     </div>
 """, unsafe_allow_html=True)
+
+st.sidebar.markdown("""---""")
 
 option = st.sidebar.radio('Go To', 
     ('🏠 Home', '🧑‍💻 About', '📊 Skills', '📂 Projects', '💼 Experience', '🎓 Education', '📧 Contact'),
