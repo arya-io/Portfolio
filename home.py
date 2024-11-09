@@ -24,7 +24,7 @@ def display_home():
             font-size: 2.2em;
             font-weight: 300;
             color: #2980b9;
-            margin-bottom: 40px;  /* Increased space below the subtitle */
+            margin-bottom: 20px;  /* Increased space below the subtitle */
             text-transform: uppercase;
         }
         /* Updated Introduction section */
