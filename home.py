@@ -17,14 +17,14 @@ def display_home():
         .header h1 {
             font-size: 4.2em;
             font-weight: bold;
-            margin-bottom: 20px;  /* Increased space below the title */
+            margin-bottom: 10px;  /* Increased space below the title */
             text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
         }
         .header h2 {
             font-size: 2.2em;
             font-weight: 300;
             color: #2980b9;
-            margin-bottom: 50px;  /* Increased space below the subtitle */
+            margin-bottom: 40px;  /* Increased space below the subtitle */
             text-transform: uppercase;
         }
         /* Updated Introduction section */
@@ -58,7 +58,7 @@ def display_home():
         /* Updated Footer section */
         .footer {
             text-align: center;
-            padding: 10px 0;  /* Added padding to better separate footer content */
+            padding: 0px 0;  /* Added padding to better separate footer content */
             font-size: 1em;
             color: #888;
             width: 100%;
