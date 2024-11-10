@@ -1,8 +1,7 @@
 import streamlit as st
 from PIL import Image
 
-def display_skills():
-    # Set the title for the Skills section with an icon
+def display_skills():
     st.title("💻 Skills & Expertise")
 
     # Create two columns for better organization and UI layout
