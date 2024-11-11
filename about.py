@@ -17,7 +17,7 @@ def display_about():
     # with col2:
     # Write a short introduction about yourself in the second column
     st.header("Hello! I'm Arya")  # Add a subheading for your name
-     st.write("""
+    st.write("""
         Aspiring Data Scientist with a passion for AI. Ever since AI started emerging as a transformative technology, 
         I knew I wanted to be part of it. The power of AI to solve complex problems and drive innovation captured my interest, 
         and that’s why I chose to pursue a career in this exciting field.
