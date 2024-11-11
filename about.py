@@ -7,21 +7,21 @@ def display_about():
     st.write("---")  # Draws a line to visually separate sections
 
     # Introduction Section with image
-    col1, col2 = st.columns([1, 2])  # Create two columns: col1 for the image, col2 for the text
+    # col1, col2 = st.columns([1, 2])  # Create two columns: col1 for the image, col2 for the text
     
-    with col1:
-        # Load and display an image in the first column (replace with your own image)
-        image = Image.open("Arya1.jpg")  # Load the image from the specified file path
-        st.image(image, caption="Arya", use_column_width=True)  # Display the image with a caption
+    # with col1:
+    #     # Load and display an image in the first column (replace with your own image)
+    #     image = Image.open("Arya1.jpg")  # Load the image from the specified file path
+    #     st.image(image, caption="Arya", use_column_width=True)  # Display the image with a caption
 
-    with col2:
-        # Write a short introduction about yourself in the second column
-        st.header("Hello! I'm Arya")  # Add a subheading for your name
-        st.write("""
-            Aspiring Data Scientist with a passion for AI. Ever since AI started emerging as a transformative technology, 
-            I knew I wanted to be part of it. The power of AI to solve complex problems and drive innovation captured my interest, 
-            and that’s why I chose to pursue a career in this exciting field.
-        """)  # Provide an introduction paragraph
+    # with col2:
+    # Write a short introduction about yourself in the second column
+    st.header("Hello! I'm Arya")  # Add a subheading for your name
+     st.write("""
+        Aspiring Data Scientist with a passion for AI. Ever since AI started emerging as a transformative technology, 
+        I knew I wanted to be part of it. The power of AI to solve complex problems and drive innovation captured my interest, 
+        and that’s why I chose to pursue a career in this exciting field.
+    """)  # Provide an introduction paragraph
 
     st.write("---")  # Draw another line to separate the next section
 
