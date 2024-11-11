@@ -12,7 +12,6 @@ def display_home():
         }
         .header {
             text-align: center;
-            padding: 0px 0 40px 0;
             color: #2c3e50;
         }
         .header h1 {
@@ -38,7 +37,7 @@ def display_home():
             background-color: #ffffff;
             border-radius: 15px;
             box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
-            margin: 20px auto;
+            margin-bottom: 20px;
             max-width: 700px;
             border: 1px solid #2980b9;
         }
@@ -46,7 +45,7 @@ def display_home():
             font-size: 1.8em;
             font-style: italic;
             text-align: center;
-            margin: 40px auto;
+            margin-bottom: 20px;
             color: #2c3e50;
             background-color: #ecf0f1;
             padding: 20px;
@@ -61,7 +60,7 @@ def display_home():
             font-size: 1em;
             color: #888;
             width: 100%;
-            margin-top: 50px;
+            margin-top: 20px;
         }
         .footer img {
             width: 35px;
