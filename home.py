@@ -33,7 +33,7 @@ def display_home():
             font-size: 1.3em;
             line-height: 1.8;
             color: #555555;
-            padding: 30px 50 px;
+            padding: 30px 50px;
             background-color: #ffffff;
             border-radius: 15px;
             box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
