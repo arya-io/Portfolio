@@ -1,4 +1,5 @@
 import streamlit as st
+from PIL import Image
 
 def display_home():
     # Set page title and background color
@@ -82,6 +83,9 @@ def display_home():
             <h2>Aspiring Data Scientist | AI Enthusiast</h2>
         </div>
         """, unsafe_allow_html=True)
+
+    image = Image.open("Arya.jpg")  # Load the image from the specified file path
+    st.image(image, caption="Arya", use_column_width=True)
 
     # Personal Introduction
     st.markdown("""
