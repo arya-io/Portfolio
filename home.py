@@ -76,7 +76,7 @@ def display_home():
         """, unsafe_allow_html=True
     )
 
-    cols = st.columns([1, 7, 1])
+    cols = st.columns([1, 12, 1])
 
     # Header Section
     with cols[1]:
