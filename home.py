@@ -76,8 +76,10 @@ def display_home():
         """, unsafe_allow_html=True
     )
 
+    cols = st.columns([1, 7, 1])
+
     # Header Section
-    st.columns(3)[1].markdown("""
+    st.cols[1].markdown("""
         <div class='header'>
             <h1>Welcome to Arya's Portfolio</h1>
             <h2>Aspiring Data Scientist | AI Enthusiast</h2>
