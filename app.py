@@ -34,7 +34,7 @@ st.markdown("""
             font-size: 0.85rem;
             color: #ffffff;
             text-align: center;  /* Centered details */
-            margin-top: 5px;
+            margin-top: 2px;
         }
         .greeting {
             font-size: 1.1rem;
