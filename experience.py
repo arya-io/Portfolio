@@ -1,15 +1,12 @@
 import streamlit as st
 
 def display_experience():
-    # Header for Experience section with an icon
     st.header("💼 Experience")
-    # Introduction text
     st.write("Explore my professional journey and the contributions I've made:")
 
-    # Horizontal divider line
     st.markdown("---")
 
-    # Define experience details as a list of dictionaries for each job role
+    # Definie experience details as a list of dictionaries for each job role
     experiences = [
         {
             "company": "IPL Scoop",
@@ -38,7 +35,6 @@ def display_experience():
             - Integrated interactive data visualizations to improve user insights and experience.
             """
         },
-        # More experiences can be added in this format if needed
     ]
 
     # Loop through each experience and display details
@@ -64,6 +60,3 @@ def display_experience():
         # Section for challenges faced during the experience
         st.markdown("### Challenges Faced")
         st.markdown(exp['challenges'])
-
-        # Horizontal divider line to separate each experience
-        st.markdown("---")
