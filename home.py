@@ -33,11 +33,11 @@ def display_home():
             font-size: 1.3em;
             line-height: 1.8;
             color: #555555;
-            padding: 30px;
+            padding: 30px 50 px;
             background-color: #ffffff;
             border-radius: 15px;
             box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
-            margin-bottom: 20px;
+            margin: 0 auto;
             max-width: 700px;
             border: 1px solid #2980b9;
         }
@@ -45,7 +45,7 @@ def display_home():
             font-size: 1.8em;
             font-style: italic;
             text-align: center;
-            margin-bottom: 20px;
+            margin: 20px auto;
             color: #2c3e50;
             background-color: #ecf0f1;
             padding: 20px;
