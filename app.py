@@ -36,14 +36,11 @@ st.markdown("""
             text-align: center;  /* Centered details */
             margin-top: 2px;
         }
-        .image {
-            margin-bottom: 2 px
-        }
         .greeting {
             font-size: 1.1rem;
             color: #1ed760;
             text-align: center;  /* Centered greeting */
-            margin-bottom: 2px
+            margin-bottom: 5px
         }
     </style>
 """, unsafe_allow_html=True)
