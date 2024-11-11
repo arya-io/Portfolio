@@ -88,14 +88,14 @@ def display_home():
             """, unsafe_allow_html=True)
     
         image = Image.open("Arya.jpg")
-        # Adding HTML to center the image
+        # Save the image temporarily or load directly
         st.markdown(
             f"""
             <div style="display: flex; justify-content: center;">
-                <img src="data:image/png;base64,{st.image(image, caption='Arya', use_column_width=False, width=320)}" alt="Arya" style="max-width: 100%;">
+                <img src="Arya.jpg" width="320">
             </div>
             """, unsafe_allow_html=True
-        )    
+        ) 
     
         # Personal Introduction
         st.markdown("""
