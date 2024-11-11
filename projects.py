@@ -2,9 +2,7 @@ import streamlit as st
 from PIL import Image
 
 def display_projects():
-    # Header for the projects section with an icon
     st.header("🚀 My Projects")
-    # Introduction text for the projects section
     st.write("Here are some of my recent projects, categorized by domain. You can filter the projects by category or expand them for more details:")
 
     # Dictionary of project categories and corresponding icons
@@ -19,7 +17,6 @@ def display_projects():
         "Natural Language Processing": "🗣",
     }
 
-    # Horizontal divider line
     st.markdown("---")
 
     # List of projects, each project is a dictionary with details such as name, category, description, tools used, and GitHub link
@@ -119,6 +116,3 @@ def display_projects():
                     </a>
                 </div>
                 """, unsafe_allow_html=True)
-
-    # Horizontal divider line after the project list
-    st.markdown("---")
