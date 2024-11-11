@@ -88,7 +88,7 @@ def display_home():
             """, unsafe_allow_html=True)
     
         image = Image.open("Arya.jpg")  # Load the image from the specified file path
-        st.image(image, caption="Arya", use_column_width=None, width=360)    
+        st.columns(3)[1].image(image, caption="Arya", use_column_width=None, width=360)    
     
         # Personal Introduction
         st.markdown("""
