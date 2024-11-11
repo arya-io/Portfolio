@@ -87,16 +87,6 @@ def display_home():
             </div>
             """, unsafe_allow_html=True)
     
-        image = Image.open("Arya.jpg")
-        # Save the image temporarily or load directly
-        st.markdown(
-            f"""
-            <div style="display: flex; justify-content: center;">
-                <img src="Arya.jpg" width="320">
-            </div>
-            """, unsafe_allow_html=True
-        ) 
-    
         # Personal Introduction
         st.markdown("""
             <div class='introduction'>
