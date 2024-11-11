@@ -40,7 +40,7 @@ st.markdown("""
             font-size: 1.1rem;
             color: #1ed760;
             text-align: center;  /* Centered greeting */
-            margin-bottom: 5px
+            margin-bottom: 12px
         }
     </style>
 """, unsafe_allow_html=True)
