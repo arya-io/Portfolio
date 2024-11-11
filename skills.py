@@ -39,7 +39,7 @@ def display_skills():
         """)
 
     # Section for Data Analysis, Machine Learning, and AI tools
-    st.subheader("📊 Data Analysis, Machine Learning & AI Tools"):
+    st.subheader("📊 Data Analysis, Machine Learning & AI Tools")
     st.write("""
     I have experience working with various tools and libraries for data analysis, machine learning, and artificial intelligence:
     - **Pandas**, **Numpy** (Data manipulation and analysis)
