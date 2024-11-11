@@ -77,7 +77,7 @@ def display_home():
     )
 
     # Header Section
-    st.markdown("""
+    st.columns(3)[1].markdown("""
         <div class='header'>
             <h1>Welcome to Arya's Portfolio</h1>
             <h2>Aspiring Data Scientist | AI Enthusiast</h2>
@@ -85,10 +85,10 @@ def display_home():
         """, unsafe_allow_html=True)
 
     image = Image.open("Arya.jpg")  # Load the image from the specified file path
-    st.columns(3)[1].image(image, caption="Arya", use_column_width=None, width=200)    
+    st.columns(3)[1].image(image, caption="Arya", use_column_width=None, width=360)    
 
     # Personal Introduction
-    st.markdown("""
+    st.columns(3)[1].markdown("""
         <div class='introduction'>
             Hi! I'm Arya, a passionate Data Scientist with a B.Tech degree in Artificial Intelligence. 
             My journey revolves around Machine Learning, Data Science, and AI. 
@@ -98,14 +98,14 @@ def display_home():
         """, unsafe_allow_html=True)
 
     # Inspirational Quote
-    st.markdown("""
+    st.columns(3)[1].markdown("""
         <div class='quote'>
             "Learning never exhausts the mind." - Leonardo da Vinci
         </div>
         """, unsafe_allow_html=True)
 
     # Footer with social media links
-    st.markdown("""
+    st.columns(3)[1].markdown("""
         <footer class='footer'>
             <div>
                 <a href='https://linkedin.com/in/aryaai' target='_blank'>
