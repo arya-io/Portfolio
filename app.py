@@ -59,7 +59,7 @@ st.sidebar.markdown(f"<div class='greeting'>{greeting}</div>", unsafe_allow_html
 
 # st.sidebar.markdown("""---""")
 
-st.sidebar.image("Arya.jpg", caption="", use_column_width=True, width=100)  # Displays profile image in sidebar
+st.sidebar.image("Arya.jpg", caption="", use_container_width=True, width=100)  # Displays profile image in sidebar
 st.sidebar.markdown("<h2 style='text-align: center; color: #1ed760;'>Arya</h2>", unsafe_allow_html=True)  # Name below the image
 
 st.sidebar.markdown("""
