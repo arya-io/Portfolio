@@ -38,6 +38,8 @@ def display_skills():
         - Completed **Google Cloud Ready Facilitator Program** in 2022.
         """)
 
+    st.write("---")
+    
     # Section for Data Analysis, Machine Learning, and AI tools
     st.subheader("📊 Data Analysis, Machine Learning & AI Tools")
     st.write("""
@@ -47,19 +49,25 @@ def display_skills():
     - **Matplotlib**, **Seaborn** (Data visualization)
     - **Computer Vision** (Image processing tasks)
     """)
-
+    
+    st.write("---")
+    
     # Subheader for Frameworks & Libraries section
     st.subheader("🛠️ Frameworks & Libraries")
     st.write("""
     - **Streamlit**: Proficient in developing web applications and dashboards.
     """)
-
+    
+    st.write("---")
+    
     # Subheader for Version Control and Collaboration section
     st.subheader("🔗 Version Control & Collaboration")
     st.write("""
     I am actively learning and using **Git** and **GitHub** to enhance my skills in version control and documentation. I aim to contribute to open-source projects soon.
     """)
-
+    
+    st.write("---")
+    
     # Subheader for Soft Skills section
     st.subheader("💼 Soft Skills")
     st.write("""
@@ -69,6 +77,8 @@ def display_skills():
     - **Time Management**
     """)
 
+    st.write("---")
+    
     # Closing Section with a Call to Action for collaboration, displayed in the center of the page
     st.markdown(
         """
