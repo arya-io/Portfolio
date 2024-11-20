@@ -53,7 +53,7 @@ def display_projects():
             "description": """This project predicts the chances of a team successfully chasing a target in IPL cricket matches. 
             Using historical IPL data and applying machine learning algorithms, I predicted match outcomes.""",
             "tools": ["Python", "Pandas", "Scikit-learn", "Streamlit"],
-            "link": "https://github.com/arya-io/A-Machine-Learning-Approach-for-Run-Chase-Prediction-in-IPL.git",
+            "link": "https://github.com/arya-io/Run-Chase-Prediction-in-IPL.git",
         },
         {
             "name": "Flipkart Data Scraping",
@@ -94,6 +94,22 @@ def display_projects():
             Streamlit and Cloudinary AI API, lets users enter a prompt to modify the background of an image. The transformed image can be downloaded.""",
             "tools": ["Python", "Streamlit", "Cloudinary AI API"],
             "link": "https://github.com/arya-io/AI-Background-Changer.git",
+        },
+        {
+            "name": "LingoLens: Translator & Sentiment Analysis",
+            "category": ["Natural Language Processing", "AI", "Web Development"],
+            "description": """LingoLens is a Streamlit-based web application that combines language translation and sentiment analysis. 
+            It uses Deep-Translator for multilingual text translation and TextBlob for sentiment analysis, offering a user-friendly interface for real-time text processing.""",
+            "tools": ["Python", "Streamlit", "Deep-Translator", "TextBlob"],
+            "link": "https://github.com/arya-io/LingoLens.git"
+        },
+        {
+            "name": "Named Entity Recognition & Wikipedia Entity Linking",
+            "category": ["Natural Language Processing", "AI", "Web Development"],
+            "description": """This Streamlit app identifies Named Entities in user input using spaCy and links them to their corresponding Wikipedia pages. 
+            It handles entity disambiguation, ensuring accurate links for ambiguous terms like 'Apple' (e.g., Apple Inc. vs. apple the fruit). The app provides a user-friendly interface for text processing with clickable Wikipedia links.""",
+            "tools": ["Python", "Streamlit", "spaCy", "Wikipedia API", "Requests"],
+            "link": "https://github.com/arya-io/NER-EntityLinker.git"
         },
     ]
 
