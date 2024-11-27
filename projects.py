@@ -111,6 +111,29 @@ def display_projects():
             "tools": ["Python", "Streamlit", "spaCy", "Wikipedia API", "Requests"],
             "link": "https://github.com/arya-io/NER-EntityLinker.git"
         },
+        {
+            "name": "Groq AI Chatbot",
+            "category": ["AI", "Natural Language Processing"],
+            "description": """This project is a chatbot web application built using Streamlit and Groq AI. It allows users to interact with an AI in different conversation styles (e.g., Default, Expert, Creative), with customizable personas and conversational memory, providing an engaging and dynamic chat experience.""",
+            "tools": ["Streamlit", "Groq AI", "LangChain", "Python"],
+            "link": "https://github.com/arya-io/groq-chatbot.git",        
+        },
+        {
+            "name": "AI Analysis System",
+            "category": ["AI", "Machine Learning", "Web Scraping"],
+            "description": """This project simulates a learning system where students submit answers to AI-related questions. 
+            The server provides real-time feedback through WebSocket communication, comparing answers to predefined correct ones. 
+            GroqLLM is integrated to enhance the feedback generation process, making it more dynamic and accurate.""",
+            "tools": ["Python", "WebSockets", "GroqLLM", "langchain", "asyncio"],
+            "link": "https://github.com/arya-io/ai-analysis-system.git"
+        },
+        {
+            "name": "AI Feedback System",
+            "category": ["AI", "Web Scraping"],
+            "description": "The AI Feedback System is a web application that helps users learn basic concepts about Artificial Intelligence. It generates beginner-level AI questions, allows users to submit answers, and provides feedback and scores to guide improvement.",
+            "tools": ["Python", "Streamlit", "LangChain", "ChatGroq"],
+            "link": "https://github.com/arya-io/ai-feedback-system.git"
+        },
     ]
 
     # Dropdown for filtering projects by category
